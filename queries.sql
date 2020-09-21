@@ -1,5 +1,4 @@
 -- List the following details of each employee: employee number, last name, first name, sex, and salary.
-
 SELECT e.emp_no, e.last_name, e.first_name, e.sex, s.salary 
 FROM PUBLIC."Salaries" AS s
 INNER JOIN PUBLIC."Employees" AS e
@@ -56,4 +55,7 @@ GROUP BY e.last_name;
 -- Searching own employee ID number
 SELECT * FROM PUBLIC."Employees"
 WHERE emp_no = 499942;
+
+
+
 
